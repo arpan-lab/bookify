@@ -1,6 +1,7 @@
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { useFirebase } from "./context/Firebase";
+import './App.css';
 
 // Pages
 import LoginPage from "./pages/Login";
